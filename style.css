@@ -1,13 +1,13 @@
 
 body
     {
-        background-color: #ECF2FF;
+        background-color: #ECF8F9;
         
     }
 
 .top
     {
-        background: linear-gradient(300deg, #A0BFE0, #537FE7, #00E7FF, #181823);
+        background: linear-gradient(300deg, #1D5B79, #537FE7, #468B97, #181823);
         background-size: 180% 180%;
         animation: normal;
         text-align: center;
@@ -26,7 +26,7 @@ body
     }
     .pro12
     {
-        color: #D6E4E5;
+        color: #E55807;
         font-size: 40px;
         font-family: 'Space Mono', monospace;
     }
@@ -48,10 +48,14 @@ body
     }
 .biotitle
     {
-        color: #AFD3E2;
-        font-family: 'Cedarville Cursive', cursive;
-        font-family: 'Great Vibes', cursive;
+        color: #7E1717;
+        font-family: 'Caprasimo', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 60px; 
+    }
+.midh3
+    {
+        color: #E55807;
     }
 
     .email
@@ -92,10 +96,12 @@ body
         }
     .bio1, .bio2
         {
-	padding: 20px;
             text-align: justify;
-        font-family: 'Caprasimo', cursive;
-	font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            padding: 20px;
+            /* text-align: center; */
+            font-family: 'Caprasimo', cursive;
+font-family: 'Roboto', sans-serif;
         }
 
     .picmecont
@@ -153,22 +159,23 @@ hr
         }
     @media(max-width: 1100px)
         {
-		.bio1, .bio2
-                {
-                    padding: 40px;
-                }
             .top
                 {
-                    background: #A0BFE0;
+                    background: #068DA9;
                 }
             .mid, .bot
                 {
-                    text-align: justify;
+                    text-align: center;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     gap: .1em;
                     font-size: 30px;
+                }
+            .bio1, .bio2
+                {
+                    text-align: justify;
+                    padding: 40px;
                 }
             .twitter, .ig1, .email_icon
                 {
@@ -188,13 +195,14 @@ hr
         }
     @media(max-width: 900px)
         {
-	 .bio1, .bio2
-                {
-                    padding: 40px;
-                }
+            .bio1, .bio2
+            {
+                padding: 40px;
+                text-align: justify;
+            }
             .top
             {
-                background: #A0BFE0;
+                background: #068DA9;
             }
             .mid, .bot
                 {
