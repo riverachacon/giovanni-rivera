@@ -1,0 +1,210 @@
+
+body
+    {
+        background-color: #ECF2FF;
+        
+    }
+
+.top
+    {
+        background: linear-gradient(300deg, #A0BFE0, #537FE7, #00E7FF, #181823);
+        background-size: 180% 180%;
+        animation: normal;
+        text-align: center;
+        border-radius: 0 0 85% 85% / 30%;
+        
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+.top_title
+    {
+
+    }
+    .buttons
+    {
+    }
+    .pro12
+    {
+        color: #D6E4E5;
+        font-size: 40px;
+        font-family: 'Space Mono', monospace;
+    }
+.draw
+    {
+        height: 20rem;
+    }
+
+ .im
+ {
+    font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+
+}
+
+.pro1
+    {
+        text-decoration: underline;
+    }
+.biotitle
+    {
+        color: #AFD3E2;
+        font-family: 'Cedarville Cursive', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-size: 60px; 
+    }
+
+    .email
+        {
+            padding: .9rem;
+            color: #06283D;
+            /* text-decoration: none; */
+
+
+
+        }
+    .picme
+    {
+        border-radius: 30%;
+        border: solid 5px;
+        /* float: left; */
+        /* display: inline-block; */
+
+      /* border-radius: 50%;
+        max-width: 100%; */
+        width: auto;
+        /* height: 20rem; */
+        height: 20rem;
+
+    }
+    .mid
+        {
+            font-size: 20px;
+            display: flex;
+            gap: 20px;
+
+            border-radius: 85% 85% 0 0 / 30%;
+            background-color: #E8F9FD; 
+        }
+    .biotitle, .textcont 
+        {
+            text-align: center;
+        }
+    .bio1, .bio2
+        {
+
+            text-align: center;
+            font-family: 'Caprasimo', cursive;
+        }
+
+    .picmecont
+        {
+            width: 25%;
+        }
+    .yomemo
+        {
+            /* float: left; */
+
+            height: 16rem;
+        }
+ .twitter, .ig1
+    {
+        height: 20px;
+    }
+    .email_icon
+        {
+            display: none;
+        }
+    .bot
+        {
+            font-size: 20px;
+            display: flex;
+            gap: 20px;
+        }
+    .buttons, .links, .html1
+        {
+            text-align: center;
+        }
+    .html1
+        {
+            font-weight: 800;
+            color:#6e95f0
+        }
+    /* footer */
+
+    footer
+        {
+            background-color: #A0BFE0;
+        }
+    .giofoot
+        {
+            text-align: center;
+        }
+
+hr
+    {
+        border-top: 1px dashed #93FFEF;
+    }
+
+    .memopic
+        {
+            margin-right: 20px;
+        }
+    @media(max-width: 1100px)
+        {
+            .top
+                {
+                    background: #A0BFE0;
+                }
+            .mid, .bot
+                {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: .1em;
+                    font-size: 30px;
+                }
+            .twitter, .ig1, .email_icon
+                {
+
+                    width: 150px;  
+                    height: auto;
+
+                }
+            .textemail
+                {
+                    display: none;
+                }
+            .email_icon
+                {
+                    display: inline;
+                }
+        }
+    @media(max-width: 900px)
+        {
+            .top
+            {
+                background: #A0BFE0;
+            }
+            .mid, .bot
+                {
+                    font-size: 50px;
+                }
+            .giofoot
+                {
+                    font-size: 29px;
+                }
+            button
+                {
+                    size
+                }
+            .textemail
+                {
+                    display: none;
+                }
+            .email_icon
+                {
+                    display: inline;
+                }
+        }
