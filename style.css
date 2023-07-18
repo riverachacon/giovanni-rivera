@@ -92,7 +92,7 @@ body
         }
     .bio1, .bio2
         {
-
+	padding: 20px;
             text-align: center;
         font-family: 'Caprasimo', cursive;
 	font-family: 'Roboto', sans-serif;
@@ -153,6 +153,10 @@ hr
         }
     @media(max-width: 1100px)
         {
+		.bio1, .bio2
+                {
+                    padding: 40px;
+                }
             .top
                 {
                     background: #A0BFE0;
@@ -184,6 +188,10 @@ hr
         }
     @media(max-width: 900px)
         {
+	 .bio1, .bio2
+                {
+                    padding: 40px;
+                }
             .top
             {
                 background: #A0BFE0;
