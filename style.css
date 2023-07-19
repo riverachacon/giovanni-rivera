@@ -95,15 +95,25 @@ body
         {
             text-align: center;
         }
-    .bio1, .bio2
-        {
-            text-align: justify;
-            font-size: 18px;
-            padding: 20px;
-            /* text-align: center; */
-            font-family: 'Caprasimo', cursive;
-font-family: 'Roboto', sans-serif;
-        }
+                .bio2
+                {
+                    text-align: justify;
+                    font-size: 25px;
+                    padding: 20px;
+                    /* text-align: center; */
+                    font-family: 'Caprasimo', cursive;
+                    font-family: 'Roboto', sans-serif;
+                }
+            .bio1
+                {
+                    text-align: center;
+                    font-size: 25px;
+                    padding: 20px;
+                    /* text-align: center; */
+                    font-family: 'Caprasimo', cursive;
+                    font-family: 'Roboto', sans-serif;
+                
+                }
 
     .picmecont
         {
@@ -177,10 +187,22 @@ hr
                     gap: .1em;
                     font-size: 30px;
                 }
-            .bio1, .bio2
+                .bio2
                 {
                     text-align: justify;
-                    padding: 40px;
+                    font-size: 25px;
+                    padding: 20px;
+                    font-family: 'Caprasimo', cursive;
+                    font-family: 'Roboto', sans-serif;
+                }
+            .bio1
+                {
+                    text-align: center;
+                    font-size: 25px;
+                    padding: 20px;
+                    font-family: 'Caprasimo', cursive;
+                    font-family: 'Roboto', sans-serif;
+                
                 }
             .twitter, .ig1, .email_icon
                 {
