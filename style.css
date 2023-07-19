@@ -160,6 +160,10 @@ hr
         }
     @media(max-width: 1100px)
         {
+		            .picmecont
+                {
+                    padding: 20px;
+                }
             .top
                 {
                     background: #068DA9;
