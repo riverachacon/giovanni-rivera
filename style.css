@@ -21,9 +21,7 @@ body
     {
 
     }
-    .buttons
-    {
-    }
+
     .pro12
     {
         color: #F3AA60;
@@ -35,13 +33,40 @@ body
         height: 20rem;
     }
 
- .im
- {
-	 color: #F0F0F0;
+.im
+{
+	color: #F0F0F0;
     font-family: 'Dancing Script', cursive;
 	font-size: 80px;
 
 }
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+a {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  a::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
 
 .pro1
     {
@@ -143,7 +168,7 @@ body
         {
             text-align: center;
         }
-    .html1
+    .html1, .blog1, .resume1
         {
             font-weight: 800;
             color:#6e95f0
@@ -159,10 +184,7 @@ body
             text-align: center;
         }
 
-hr
-    {
-        border-top: 1px dashed #F3AA60;
-    }
+
 
     .memopic
         {
