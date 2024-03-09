@@ -159,7 +159,7 @@ header{
 }
 .dropdown.open
 {
-    height: 140px;
+    height: auto;
 }
 .dropdown li
 {
@@ -201,6 +201,7 @@ header{
         /* position: fixed; */
         display: block;
     }
+
 
 }
 
